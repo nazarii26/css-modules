@@ -51,7 +51,7 @@ a {
 	height: 14px;
 	position: relative;
 	padding: 0 14px 0 0;
-	background: url(./images/mobile.png) no-repeat center / contain;
+	background: url(./images/post.png) no-repeat center / contain;
 	margin-right: 12px;
 }
 
@@ -103,6 +103,7 @@ a {
 .menu {
 	height: 60px;
 	background-color: #fff;
+	position: relative;
 }
 
 .container {
