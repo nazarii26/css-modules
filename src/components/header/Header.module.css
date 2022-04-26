@@ -1,0 +1,173 @@
+button {
+	border: none;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	width: 100%;
+	height: 35px;
+	background-color: rgba(10, 0, 67, 1);
+}
+
+.info {
+	width: 1260px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list {
+	margin: 0px;
+	width: 450px;
+	height: 34px;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	list-style: none;
+}
+
+.anchor {
+	text-decoration: none;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+
+.a1:before {
+	content: "";
+	top: 50%;
+	transform: translateY(-50%);
+	width: 14px;
+	height: 14px;
+	position: relative;
+	padding: 0 14px 0 0;
+	background: url(./images/mobile.png) no-repeat center / contain;
+	margin-right: 12px;
+}
+
+.a2:before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	position: relative;
+	padding: 0 14px 0 0;
+	background: url(./images/mobile.png) no-repeat center / contain;
+	margin-right: 12px;
+}
+
+.a3:before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	position: relative;
+	padding: 0 14px 0 0;
+	background: url(./images/viber.png) no-repeat center / contain;
+	margin-right: 12px;
+}
+
+/* ----------------signs----------------- */
+.signs {
+	display: flex;
+	flex-direction: row;
+	height: 34px;
+	width: 90px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.heart {
+	background: url(./images/heart1.png);
+	width: 40px;
+	height: 23px;
+	margin-bottom: 3px;
+}
+
+.flag {
+	background: url(./images/united-kingdom.png);
+	width: 25px;
+	height: 17px;
+}
+
+/* ----------------menu----------------- */
+
+.menu {
+	height: 60px;
+	background-color: #fff;
+}
+
+.container {
+	width: 1260px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	background: url(./images/logo.png);
+	width: 70px;
+	height: 40px;
+}
+
+.menuList {
+	width: 500px;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 30px;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+}
+
+.itemLink {
+	color: rgba(0, 0, 0, 1);
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.select {
+	text-decoration: none;
+}
+
+.select::after {
+	content: url(./images/triangle.png);
+	margin-left: 4px;
+}
+.rightSide {
+	width: 707px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.log__button {
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	background-color: #fff;
+	padding: 0 13px;
+}
+
+.log__button:last-child {
+	padding-right: 0px;
+	border-left: 1px solid #000;
+}
