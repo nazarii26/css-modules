@@ -3,37 +3,37 @@ import s from './Footer.module.css'
 
 export const Footer = () => {
 	return (
-		<div className="container">
-			<div className="main">
-				<div className="logo"></div>
-				<p className="descript"><b>the best</b> real estate in Spain</p>
-				<div className="line"></div>
+		<div className={s.container}>
+			<div className={s.main}>
+				<div className={s.logo}></div>
+				<p className={s.descript}><b>the best</b> real estate in Spain</p>
+				<div className={s.line}></div>
 			</div>
 
-			<div className="menu">
+			<div className={s.menu}>
 				<a href="" className="item">All cities</a>
 				<a href="" className="item">Blog</a>
 				<a href="" className="item">Video</a>
 				<a href="" className="item">Contacts</a>
 			</div>
 
-			<div className="info">
+			<div className={s.info}>
 
-				<div className="contacts">
+				<div className={s.contacts}>
 					<h2 className="title">Contacts</h2>
 					<p className="number">+34 (965) 020 - 784</p>
 					<p className="mail">sales@wtgspain.com</p>
 					<p className="geo">Centro Comercial «Playa Flamenca»
 						C/ Niagara, 63 Local 60/PB, first floor,
 						03189 - Orihuela Costa (Alicante), Spain</p>
-					<div className="rate">
+					<div className={s.rate}>
 						<p className="grade">Reating 4.9/5:</p>
-						<div className="stars"></div>
+						<div className={s.stars}></div>
 						<p className="votes">820 votes</p>
 					</div>
 				</div>
 
-				<div className="type">
+				<div className={s.type}>
 					<h2 className="title">Type</h2>
 					<ul className="types">
 						<li>Appartaments</li>
@@ -46,7 +46,7 @@ export const Footer = () => {
 					</ul>
 				</div>
 
-				<div className="web">
+				<div className={s.web}>
 					<h2 className="title">Follow us:</h2>
 					<div className="sites">
 						<a href="">Facebook</a>

@@ -1,0 +1,74 @@
+.container {
+	height: 600px;
+	width: 100%;
+	background-color: rgba(29, 38, 71, 1);
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo {
+	height: 75px;
+	width: 120px;
+	background: url(./images/logo.png);
+}
+
+.descript {
+	margin: 0;
+}
+
+.line {
+	height: 1px;
+	width: 1100px;
+	background-color: #ffffff;
+}
+
+/* ---------- menu ----------- */
+
+.menu {
+	width: 350px;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.info {
+	width: 1100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.contacts {
+	width: 360px;
+}
+
+.rate {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.stars {
+	width: 120px;
+	height: 21px;
+	background: url(./images/stars.png);
+}
+
+.type {
+	width: 130px;
+}
+
+.web {
+	width: 330px;
+}
+
+.footerText {
+	width: 760px;
+	margin: 0 auto;
+}
